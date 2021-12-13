@@ -232,3 +232,110 @@ ul li button a,
   cursor: pointer;
 }
 /* MEDIA QUERIES */
+
+@media  (max-width: 768px) {
+  div.nav-bar {
+    padding: 10px 5px;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  div.logo {
+    width: 100%;
+    display: block;
+  }
+  ul {
+    display: block;
+  }
+  ul.nav-links {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0px;
+  }
+  .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    color: white;
+  }
+  #myLinks {
+    display: none;
+  }
+  /* FOOTER STYLES */
+.footer-components {
+  display: flex;
+  justify-content: space-between;
+  display: block;
+  width: 90%;
+  margin: 20px auto 0;
+  padding: 0 30px 20px;
+}
+.left{
+   margin-top: 40px;
+}
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 40px;
+}
+.card{
+  display: none;
+}
+.hero-text p{
+  width:100%;
+}
+.grow h4{
+  width: 100%;
+}
+.grow p{
+  width: 100%;
+}
+.sub-hero {
+  display: block;
+  /* justify-content: space-between; */
+}
+
+/* WAITLIST STYLES */
+.waitlist{
+  display: block;
+  width: 80%;
+  padding: 40px 40px 20px;
+}
+.waitlist-components{
+ display: block;
+ padding: auto;
+  
+}
+.waitlist h4 {
+  font-weight: 800;
+font-size: 30px;
+line-height: 54px;
+width: 90%;
+}
+.waitlist input {
+padding: 10px 20px;
+width: 60%;
+}
+.footer-components {
+  /* display: block; */
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  display: none;
+}
+
+}
